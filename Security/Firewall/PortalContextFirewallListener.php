@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Klipper\Component\Portal\Security\Http\Firewall;
+namespace Klipper\Component\Portal\Security\Firewall;
 
 use Klipper\Component\Portal\PortalContextHelper;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
@@ -19,7 +19,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
  *
  * @author François Pluchino <francois.pluchino@klipper.dev>
  */
-class PortalContextListener
+class PortalContextFirewallListener
 {
     protected PortalContextHelper $helper;
 
